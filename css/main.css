@@ -1,0 +1,67 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#menu {
+    background-color: #07438d;
+    height: 12%;
+}
+
+#menu a {
+    padding-top: 31px;
+    font-size: 20px;
+    color: white;
+}
+
+#menu a:hover {
+    border-bottom: solid white 2px;
+}
+
+/* Sección 1*/
+#seccion1 {
+    height: 700px;
+}
+
+#car {
+    width: 75%;
+    margin-left: 15%;
+    margin-top: 3%;
+}
+
+#car img{
+    height: 600px;
+    width: 75%;
+}
+/*  ************************************************************  */
+/* Sección 2 */
+#seccion2 {
+    background-image: url("../img/cruz.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: soft-light;
+    background-color: rgba(50,50,50,50);
+    height: 850px;
+    display: flex;
+
+}
+
+#containe-padre {
+    padding: 20%;
+}
+
+.texto h3{
+    color: white;
+}
+/*  ************************************************************  */
+/* Sección 2 */
+
+#seccion3 {
+    background-image: url("../img/lago.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: soft-light;
+    background-color: rgba(50,50,50,50);
+    height: 850px;
+    display: flex;
+}
